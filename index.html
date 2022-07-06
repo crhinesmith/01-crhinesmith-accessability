@@ -12,8 +12,8 @@
     <!-- Changed non-semantic element to semantic-->
     <nav class="header">
         <h1>Hori<span class="seo">seo</span>n</h1>
-        <!-- ?? For some reason only div seems to make the list appear in correct format (list side by side)-->
-        <div>
+        <!-- Changed non-semantic element to semantic-->
+        <section>
             <ul>
                 <li>
                     <a href="#search-engine-optimization">Search Engine Optimization</a>
@@ -25,15 +25,16 @@
                     <a href="#social-media-marketing">Social Media Marketing</a>
                 </li>
             </ul>
-        </div>
+        </section>
     </nav>
     
-    <!-- Changed non-semantic element to semantic-->
-    <figure class="hero"></figure>
+    <!-- Changed non-semantic element to semantic, title added for accessability-->
+    <figure class="hero" title="Digital Marketing Meeting"></figure>
 
     <!-- Changed non-semantic element to semantic-->
     <main class="content">
-        <section class="search-engine-optimization">
+        <!-- Consolidated all benefit class elements to content-body-->
+        <section class="content-body">
             <!-- Added ALT -->
             <img src="./assets/images/search-engine-optimization.jpg" class="float-left" alt="Notebook with coffee, computer, and cup of pens surrounding  it" />
             <h2>Search Engine Optimization</h2>
@@ -41,7 +42,8 @@
                 The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
             </p>
         </section>
-        <section id="online-reputation-management" class="online-reputation-management">
+        <!-- Consolidated all benefit class elements to content-body-->
+        <section id="online-reputation-management" class="content-body">
             <!-- Added ALT -->
             <img src="./assets/images/online-reputation-management.jpg" class="float-right" alt="Computer screen showing presentation with title 'Reputation'" />
             <h2>Online Reputation Management</h2>
@@ -49,7 +51,8 @@
                 The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.
             </p>
         </section>
-        <section id="social-media-marketing" class="social-media-marketing">
+        <!-- Consolidated all benefit class elements to content-body-->
+        <section id="social-media-marketing" class="content-body">
             <!-- Added ALT -->
             <img src="./assets/images/social-media-marketing.jpg" class="float-left" alt="People surrounding table with different text bubbles on table including phrases such as media and tweet"  />
             <h2>Social Media Marketing</h2>
@@ -62,7 +65,8 @@
     <!-- Changed non-semantic element to semantic-->
     <aside class="benefits">
         <!-- Changed non-semantic element to semantic-->
-        <section class="benefit-lead">
+        <!-- Consolidated all benefit class elements to benefit-body-->
+        <section class="benefit-body">
             <h3>Lead Generation</h3>
             <!-- Added ALT -->
             <img src="./assets/images/lead-generation.png" alt="Gear turning leading into money sign"  />
@@ -71,7 +75,7 @@
             </p>
         </section>
         <!-- Changed non-semantic element to semantic-->
-        <section class="benefit-brand">
+        <section class="benefit-body">
             <h3>Brand Awareness</h3>
              <!-- Added ALT -->
             <img src="./assets/images/brand-awareness.png" alt="Lightbulb pulsing" />
@@ -80,7 +84,7 @@
             </p>
         </section>
         <!-- Changed non-semantic element to semantic-->
-        <section class="benefit-cost">
+        <section class="benefit-body">
             <h3>Cost Management</h3>
             <!-- Added ALT -->
             <img src="./assets/images/cost-management.png" alt="Gear surrrounded by 3 money signs" />
