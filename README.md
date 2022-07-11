@@ -6,4 +6,4 @@ The motivation for this project was to make the given webpage more accessible fo
 Link to repository: https://github.com/ripbog/01-crhinesmith-accessability
 Link to deployed site: https://ripbog.github.io/01-crhinesmith-accessability/
 
-![Screenshot](/Images/Screenshot-readme.png)
+![Screenshot of webpage](./Images/Screenshot-readme.png)
